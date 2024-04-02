@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
-    "build": "npm start"
+    "build": "npm start",
+    "deploy": "npm run build && vercel --prod"
   },
   "dependencies": {
     "@babel/register": "^7.23.7",
